@@ -20,9 +20,7 @@ def obst(i, j):
 if __name__ == "__main__":
     n = int(input())
 
-    # recursion depth is <= n since each recursive call is
-    # to a strictly smaller interval, but Python has a few function calls
-    # on the stack (eg. the min() function) as well. 5*n turns out to be ok.
+    # needed for larger inputs
     sys.setrecursionlimit(5*n)
 
     # the extra 0.0 is a dummy entry so we can 1-index
