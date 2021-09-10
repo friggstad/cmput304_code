@@ -32,11 +32,11 @@ if __name__ == "__main__":
     uf = {i:i for i in range(1, n+1)}
 
     solution = []
-    val = 0
+    tot = 0
     for u, v, w in edges[::-1]:
         if merge(u, v, uf):
             solution.append((u,v,w))
-            val += w
+            tot += w
     for u, v, w in solution:
         print("{0}, {1} - {2}".format(u, v, w))
-    print("Maximum acyclic subgraph weight:", w)
+    print("Maximum acyclic subgraph weight:", tot)

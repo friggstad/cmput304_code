@@ -1,7 +1,7 @@
 import random
 
 n = 100000
-m = 1000000
+m = 200000
 maxw = 1000000000
 
 assert m <= n*(n-1)//2
