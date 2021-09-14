@@ -1,3 +1,6 @@
+# Not covered in CMPUT 304 (often taught in 204)
+# but I had an implementation around so I just added it to the repo.
+#
 # Strassen's method for matrix multipliciation
 # O(n^{log_2(7)}), note log_2(7) is a bit less than 2.8074
 # Will not outpeform classic O(n^3) in practice since n needs to be
