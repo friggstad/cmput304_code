@@ -48,7 +48,7 @@ def closest_pair(pts, init = True):
 
     mid_x = pts[n//2][0]
 
-    # get the points that are within distance x of the vertical line
+    # get the points that are within distance delta of the vertical line
     # passing through mid_x
     strip = [p for p in pts if abs(p[0] - mid_x) <= delta]
 
