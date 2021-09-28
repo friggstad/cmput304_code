@@ -1,0 +1,6 @@
+3
+1 1
+2 3
+3 1
+
+example from https://www.geeksforgeeks.org/bitonic-traveling-salesman-problem/
